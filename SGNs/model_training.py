@@ -8,7 +8,7 @@ import scvi
 
 
 
-modified=sc.read_h5ad('/proj/sensoryaging/data/data/up_dated_data/SGNs/training_model.h5ad')
+modified=sc.read_h5ad('/proj/sensoryaging/data/data/up_dated_data/SGNs/FINAL_AFTER_11.7/merge_old_new.h5ad')
 
 
 sc.pp.highly_variable_genes(modified, n_top_genes=3500, flavor='seurat_v3',layer='umi',subset=True)
